@@ -1,0 +1,138 @@
+ID,Billing Month,Customer Name,Billing Address,City,Monthly Amt,Cmt 1 Amt,Comment 1,Comment 2,Cmt 2 Amt,Total,Amt Rec’d,Location Address,Date Rec’d,Ck No,State,Zip,No Matching Record
+# 151201,August,Alfred Olivas,5410 Dariesa Street,Carpinteria,$100.00,$100.00,,,,,$100.00,4455 Via Real,08/06/18,#  6958,CA,93013,
+# 021503,July,Margaret Smith / Pac Shore,5250 Creston Lane,Somis,$95.00,$95.00,,,,,$95.00,4848 Sandyland Road,07/11/18,#  8049,CA,93066,XXXX
+# 071502,August,Brian Goodman,333 Old Mill Road #206,Santa Barbara,$45.00,$45.00,,,,,$45.00,333 Old Mill Rd #206,08/02/18,#  3173,CA,93110,
+# 030112,July,California Oaks Prop Mgt,2463 E. Main Street,Ventura,$145.00,$145.00,,,,,$145.00,"4850 Sandyland Rd, Carp",07/13/18,#  7065,CA,93003,XXXX
+# 221503,August,Carl Volz,5256 8th Street,Carpinteria,$80.00,$80.00,,,,,$160.00,5256 8th Street,07/13/18,#  1106,CA,93013,
+# 140103,July,Carmen Naimish,P.O. Box 122,Santa Barbara,$90.00,$45.00,previous month,,$45.00,,$45.00,5700 Via Real #73,06/20/18,#  5351,CA,93102,
+# 110910,July,Carp Com Ctr Owners,7127 Hollister Ave  #25A333,Goleta,$95.00,$95.00,,,,,$95.00,4237 Carpinteria Avenue,07/18/18,#  5032,CA,93117,XXXX
+# 032203,July,Carp. Baptist Church,800 Maple Avenue,Carpinteria,$127.00,$127.00,,,,,$127.00,800 Maple Ave,07/11/18,# 19403,CA,93013,XXXX
+# 132001,July,Carp. Masonic Temple,5421 Carpinteria Ave.,Carpinteria,$170.00,$170.00,,,,,$396.50,5421 Carp Ave,07/02/18,#  3829,CA,93013,
+# 230107,August,Carrie Wanek,480 Arbol Verde,Carpinteria,$68.00,$68.00,,,,,$68.00,480 Arbol Verde,07/27/18,#  4713,CA,93013,
+# 160318,July,Chris Phillips,1436 Carnation Place,Carpinteria,$70.00,$70.00,,,,,$140.00,1436 Carnation Place,07/11/18,#  1718,CA,93013,
+# 180903,July,Christian Rishel,1545 Jay Street,Carpinteria,$85.00,$85.00,,,,,$85.00,1545 Jay Street,07/22/18,#  6873,CA,93013,
+# 020503,July,Craig Belknap,5444 El Carro Lane,Carpinteria,$105.00,$105.00,,,,,$105.00,5444 El Carro Lane,06/25/18,#  2204,CA,93013,
+# 201514,August,Craig Torbitt,5337 Cassandra Way,Santa Rosa,$85.00,$85.00,,,,,$85.00,5029 Pacific Village Dr,08/02/18,#  1248,CA,95403,XXXX
+# 190101,July,Dave & Agnes Samarin,2914 Punta Del Este Dr.,Hacienda Hts,$110.00,$55.00,previous month,,$55.00,,$55.00,4465 Mesa Lane,06/06/18,#  5885,CA,91745,
+# 140504,July,Dave Newton,1431 Camellia Circle,Carpinteria,$40.00,$40.00,,,,,$40.00,1431 Camellia Cr,07/11/18,#  7786,CA,93013,
+# 011204,July,David Allen,790 Arbol Verde,Carpinteria,$60.00,$60.00,,,,,$60.00,790 Arbol Verde,07/06/18,#  6431,CA,93013,
+# 020904,July,David Biehl,P.O.Box 50338,Santa Barbara,$70.00,$70.00,,,,,$70.00,1539 Jay Street/Carp.,07/11/18,#  1913,CA,93150,
+# 120104,July,David Laskin,1477 La Jolla Place,Carpinteria,$55.00,$55.00,,,,,$55.00,1477 La Jolla Place,07/11/18,#  1194,CA,93013,
+# 191302,July,Dean Smith,40507 Road 222 #101,Bass Lake,$115.00,$115.00,,,,,$115.00,"1350 Via Latina, Carp.",06/06/18,#  8266,CA,93604,XXXX
+# 190804,July,Deana Shroll,4655 Aragon Drive,Carpinteria,$22.50,$45.00,1/2 month credit,,$22.50,,$45.00,4655 Aragon Dr,07/11/18,#  2534,CA,93013,XXXX
+# 122504,July,Dennis Lyons,4455 Mesa Lane,Carpinteria,$150.00,$150.00,,,,,$266.54,4455 Mesa Lane,07/11/18,#  1034,CA,93013,
+# 130304,July,Doc McCollum,137 Ocean View Avenue,Carpinteria,$67.00,$67.00,,,,,$67.00,137 Ocean View Ave,07/18/18,#  9097,CA,93013,
+# 030504,July,Dorothy Cowan,5464 Carpinteria Ave #224,Carpinteria,$100.00,$100.00,,,,,$100.00,5476 Cameo Road,07/11/18,#  1388,CA,93013,
+# 042303,August,Dorrance/ Suite 100,115 S. La Cumbre Lane,Santa Barbara,$122.00,$122.00,,,,,$122.00,868 Dorrance Way Condo Assn,08/03/18,#  2013,CA,93105,
+# 030804,July,Doryann Lebe Chasen,1800 Fairburn Ave Ste 107,Los Angeles,$85.00,$85.00,,,,,$85.00,"921 Palm Ave., Carpinteria",04/10/18,#  5116,CA,90025,
+# 050405,July,Ed & Carolyn Edwards,5458 El Carro Lane,Carpinteria,$92.00,$92.00,,,,,$92.00,5458 El Carro Lane,07/03/18,#  0235,CA,93013,
+# 211405,July,Elise Unruh,4425 El Carro Ln,Carpinteria,$185.00,$55.00,2 Hrs @$65Hr,hedge topping,$130.00,,$55.00,4425 El Carro Ln,07/03/18,#  4809,CA,93013,
+# 080105,August,Elizabeth Hansen,4217 Via Marcina,Carpinteria,$55.00,$55.00,,,,,$55.00,4217 Via Marcina,08/02/18,#  2378,CA,93013,
+# 071305,July,Emilie Griffin,1960 Cate Mesa Road,Carpinteria,$55.00,$55.00,,,,,$55.00,5359 Star Pine Road,07/06/18,#  4645,CA,93013,
+# 142505,July,Eric & Hedy Nystrom,1477 Manzanita,Carpinteria,$50.00,$50.00,,,,,$50.00,1477 Manzanita,07/13/18,#  2435,CA,93013,
+# 221501,July,Estate Of: Ann Vokoun,1475 Cantera,Santa Barbara,$145.00,$145.00,,,,,$315.00,1475 Cantera,07/13/18,#  1208,CA,93110,
+# 080106,July,Fritz Hansen,55 Fernwood Road,Hamden,$130.00,$130.00,,,,,$130.00,"1498 Santa Ynez, Carp.",07/25/18,#  5811,CT,6517,
+# 102120,Xxxx,Gandrud Financial,1180 Eugenia Pl Suite 220,Carpinteria,$50.00,$50.00,serviced 6/23/2018,,,,$50.00,Tina Jougla,07/11/18,#  2165,CA,93013,XXXX
+# 192010,July,Genene Staats,32812 Agua Dulce Cyn Rd,Agua Dulce,$60.00,$60.00,,,,,$60.00,"4822 5th St, Carpinteria",07/11/18,#  5772,CA,91390,
+# 180910,July,Gerald Richart,5027 Pacific Village Dr.,Carpinteria,$115.00,$115.00,,,,,$115.00,5027 Pacific Village Dr.,07/11/18,#  1060,CA,93013,
+# 071801,July,Grant & Tani/ L.Bowers,9100 Wilshire Bl Ste 1000 W,Beverly Hills,$165.00,$165.00,,,,,$165.00,5032 Pacific Village/Carp,07/18/18,#  1749,CA,90212,XXXX
+# 030110,July,Harold & Jody Cassriel,300 Hot Springs Rd #162,Montecito,$90.00,$90.00,,,,,$90.00,874 Walnut Ave/CARP,07/11/18,#  0397,CA,93108,XXXX
+# 080119,July,Harry Hahn,831 Concha Loma,Carpinteria,$120.00,$120.00,,,,,$120.00,831 Concha Loma,07/11/18,#  3338,CA,93013,
+# 060108,July,Hernando Pardo,P.O.Box 3407,Jackson,$130.00,$130.00,,,,,$130.00,"1155 Church Lane, Carp",07/13/18,#  1068,WY,83001,
+# 080907,July,Hickey Bros. Land Co.,P.O. Box 147,Carpinteria,$375.00,$375.00,,,,,$375.00,8th St /Elm St/ Pedrogossa,07/19/18,# 16448,CA,93014,
+# 071008,July,Howard & Bonnie Fox,1 Portico Court  Apt 200,Great Neck,$105.00,$105.00,,,,,$105.00,218 W. Mission / S.B.,07/11/18,#  1924,NY,11021,
+# 031510,July,James Colson,5477 Cameo Road,Carpinteria,$72.00,$27.00,,601 Maple Ave,,$45.00,$202.00,Sandpiper #63,07/03/18,#  1752,CA,93013,
+# 071301,July,Janet Augerot,P.O.Box 785,Carpinteria,$50.00,$50.00,,,,,$50.00,755 Calle Ray Mar. Gillilan,07/06/18,#  8243,CA,93014,XXXX
+# 041504,August,Janice Dolge,780 Calle Rey Mar,Carpinteria,$72.00,$72.00,,,,,$72.00,780 Calle Rey Mar,08/02/18,#  8018,CA,93013,
+# 060110,July,Janie Foley,3950 Via Real #62,Carpinteria,$25.00,$25.00,,,,,$50.00,3950 Via Real #67,07/22/18,#  0164,CA,93013,
+# 180510,July,Jeff Restivo,133 Ocean View,Carpinteria,$55.00,$55.00,,,,,$55.00,133 Ocean View,07/06/18,#  9026,CA,93013,
+# 260910,August,Jerry Zins,2210 Cervato Drive,Camarillo,$120.00,$120.00,,,,,$120.00,"8th Street, Carp",08/02/18,#  9650,CA,93012,
+# 201801,July,Jim & Anna Tremaine,21021 W. 81st. Place,Lenexa,$170.00,$85.00,previous month,,$85.00,,$85.00,1514 Jay Street,06/09/18,#  1776,KS,66220,
+# 191610,September,Jim & Laurie Spann,5470 Cameo Road,Carpinteria,$45.00,$45.00,,,,,$40.00,5470 Cameo Road,08/02/18,#  8383,CA,93013,
+# 030110,July,Jim Casabona ,1416 Carnation Place,Carpinteria,$45.00,$45.00,,,,,$45.00,1416 Carnation Place,07/18/18,#  3650,CA,93013,
+# 100908,November,Jim Hartman,565 Arbol Verde,Carpinteria,$70.00,$70.00,,,,,$350.00,565 Arbol Verde,07/03/18,#  3909,CA,93013,
+# 031810,July,Joan Crossley,2236 Crespi Lane,Westlake Vllg,$97.00,$97.00,,,,,$114.00,4755 4th St. Carpinteria,07/18/18,#  1889,CA,91361,
+# 070510,August,Joan Geftakys,1479 Manzanita,Carpinteria,$50.00,$50.00,,,,,$60.00,1479 Manzanita,08/02/18,#  4547,CA,93013,
+# 091910,July,Joan Ising,531 Chapala Unit C,Santa Barbara,$95.00,$95.00,,,,,$95.00,4177 Venice Lane,07/22/18,#  8767,CA,93101,
+# 101505,July,Joe Sevilla/Ellen Johnson,555 Calle Dia,Carpinteria,$75.00,$75.00,,,,,$75.00,555 Calle Dia,07/06/18,#  5498,CA,93013,
+# 190103,July,John & Chris Sayer,5441 Cameo Road,Carpinteria,$60.00,$60.00,,,,,$60.00,5441 Cameo Rd,07/11/18,#  1152,CA,93013,
+# 131510,July,John & Mary Soper,349 Ash #33,Carpinteria,$50.00,$50.00,,,,,$50.00,349 Ash #33,07/18/18,#  0187,CA,93013,
+# 052210,July,John Evarone,1495 Chapperal Drive,Carpinteria,$80.00,$80.00,,,,,$80.00,1495 Chapperal Drive,07/13/18,#  0895,CA,93013,
+# 110910,July,John Kimberlin,5439 El Carro Lane,Carpinteria,$230.00,$115.00,previous month,,$115.00,,$115.00,5439 El Carro Lane,06/06/18,#  1035,CA,93013,
+# 192005,July,John Nicoli,349 Ash Street #35,Carpinteria,$40.00,$40.00,,,,,$40.00,349 Ash #35,07/06/18,# 20150,CA,93013,
+# 190319,August,John Schwasnick / Krebs,760 Calle Rey Mar,Carpinteria,$67.00,$67.00,,,,,$217.00,760 Calle Rey Mar,07/19/18,#  0400,CA,93013,
+# 190310,July,Jon Schlobohm,1477 La Paloma Drive,Carpinteria,$70.00,$70.00,,,,,$70.00,1477 La Paloma Dr,07/18/18,#  8638,CA,93013,
+# 030810,July,Judie Chesson,1489 Haida Street,Carpinteria,$190.00,$95.00,previous month,,$95.00,,$95.00,1489 Haida St,06/09/18,#  3309,CA,93013,
+# 071510,July,Judy Goodbody,4171 Via Marcina,Carpinteria,$382.50,$70.00,3.5 hrs @ $65,dump run,$227.50,$85.00,$70.00,4147 Via Marcina,07/11/18,#  5757,CA,93013,
+# 130110,August,Judy Martinez,1266 La Brea,Carpinteria,$50.00,$50.00,,,,,$75.00,1266 La Brea,08/02/18,#  2944,CA,93013,
+# 061510,July,Justin Fox,1481 Manzanita,Carpinteria,$85.00,$85.00,,,,,$85.00,1481 Manzanita,07/27/18,#  5033,CA,93013,
+# 151519,July,Karen Burns,4500 Foothill Rd,Carpinteria,$65.00,$65.00,,,,,$65.00,4500 A Foothill Rd,07/27/18,#  2625,CA,93013,???
+# 022220,July,Karen Burns,4500 Foothill Road,Carpinteria,$140.00,$140.00,,,,,$140.00,4460 Foothill Road,07/22/18,#  1197,CA,93013,???
+# 022220,July,Karen Burns,4500 Foothill Road,Carpinteria,$150.00,$100.00,4500 1/2 little cabin,,$50.00,,$150.00,4500 Foothill Road,07/27/18,#  2625,CA,93013,???
+# 191614,July,Karen Heimberg,325 Santa Barbara Street,Santa Barbara,$90.00,$90.00,,,,,$90.00,226 W. Sola Street,07/18/18,#  5311,CA,93101,???
+# 191613,July,Karen Heimberg,325 Santa Barbara St.,Santa Barbara,$90.00,$90.00,,,,,$90.00,"4854 8th St, Carpinteria",07/11/18,#  5309,CA,93101,???
+# 062120,July,Kathleen Furlong,12000 Lone Oak Drive,Bakersfield,$70.00,$70.00,,,,,$70.00,1415 Carnation Place,07/06/18,#  2902,CA,93312,
+# 070811,August,Kathy Groh,333 Old Mill Road #208,Santa Barbara,$80.00,$40.00,Old Mill Rd #208,,$40.00,,$80.00,711 Ramming Way / S.B.,08/02/18,#  2256,CA,93110,
+# 131511,August,Kevin Monaghan,5016 Pacific Village Dr.,Carpinteria,$135.00,$105.00,previous,,$30.00,,$100.00,5016 Pacific Village Dr,08/02/18,#  6350,CA,93013,
+# 131911,August,Kristy Michel,4504 Foothill Road,Carpinteria,$70.00,$70.00,,,,,$210.00,4504 Foothill Rd,07/18/18,#  0120,CA,93013,
+# 030113,July,"Latitude, Inc.",1227 De La Vina Street,Santa Barbara,$80.00,$80.00,Holly Ave Cottages,,,,$480.00,4475 4th St/Carpinteria,02/15/18,#  5667,CA,93101,
+# 190312,July,Lauren Schmidt,827 Hollywood Way #410,Burbank,$265.00,$35.00,624 Maple Street,5549 Calle Arena,$95.00,$135.00,$265.00,5160 6th Street/Carpinteria,07/11/18,#  0851,CA,91505,
+# 120116,July,Lauri Mugavero,15856 Kalisher Street,Granada Hills,$105.00,$105.00,,,,,$105.00,1715 La Mirada - Laffin,07/18/18,#  2766,CA,91344,
+# 030112,July,Linda Callos,5161 6th Street,Carpinteria,$55.00,$55.00,,,,,$55.00,5161 6th Street,07/11/18,#  2141,CA,93013,
+# 121512,September,Lori Locker,3950 Via Real  #89,Carpinteria,$35.00,$35.00,,,,,$35.00,3950 Via Real  #89,08/02/18,#  0308,CA,93013,
+# 020513,August,Margaret Bernal,P.O.Box 327,Carpinteria,$125.00,$125.00,,,,,$250.00,1552 Kathy Street,08/02/18,#  3033,CA,93014,
+# 140114,July,Mary Mascolo,1426 Carnation Place,Carpinteria,$55.00,$55.00,,,,,$80.00,1426 Carnation Place,07/11/18,#  8634,CA,93013,
+# 231113,July,Mary Wullbrandt,825 Walnut Street,Carpinteria,$115.00,$115.00,,,,,$115.00,825/825 Walnut St,07/03/18,#  4738,CA,93013,
+# 070101,July,Matt & Alia Glasgow,5488 Cameo Road,Carpinteria,$60.00,$60.00,,,,,$60.00,5488 Cameo Road,07/19/18,#  0718,CA,93013,
+# 140314,August,Michael McMahon,5183 Concord Place,Carpinteria,$55.00,$55.00,,,,,$275.00,5183 Concord Place,08/02/18,#  1763,CA,93013,
+# 100114,July,Mildred Jackson,2035 Statford Ave,S.Pasadena,$115.00,$115.00,,,,,$115.00,4788 Dorrance Way,07/02/18,#  4938,CA,91030,
+# 192016,August,Mr & Mrs Paul Stine,1547 Casitas Pass Road,Carpinteria,$105.00,$105.00,,,,,$105.00,1547 Casitas Pass Rd,08/02/18,#  5671,CA,93013,XXXX
+# 190113,July,Mrs Santos,4448 Via Real,Carpinteria,$55.00,$55.00,,,,,$55.00,4448 Via Real,07/11/18,#  3058,CA,93013,XXXX
+# 192002,July,Mrs Stillman,1442 Camellia Circle,Carpinteria,$105.00,$105.00,,,,,$130.00,1442 Cameilla Circle,07/22/18,#  5738,CA,93013,XXXX
+# 230513,July,Mrs Webber,1268 Casitas Pass Road,Carpinteria,$70.00,$35.00,Serviced on 07/03/18,serviced on 07/25/18,,$35.00,$80.00,1268 Casitas Pass Rd,06/25/18,#  1009,CA,93013,
+# 190813,July,Myron Shann,3950 Via Real #90,Carpinteria,$50.00,$50.00,,,,,$50.00,3950 Via Real #90,07/11/18,#  1633,CA,93013,
+# 140102,August,Nancy Branigan,3676 Castano Drive,Camarillo,$50.00,$50.00,,,,,$50.00,Vista De Santa Barbara #26,08/02/18,#  1231,CA,93010,
+# 181514,August,Nancy Rosato,1474 La Palma,Carpinteria,$125.00,$125.00,,,,,$125.00,1474 La Palma,08/03/18,#  7517,CA,93013,
+# 020114,July,Neal Bartlett / Barber,P.O.Box 584,Carpinteria,$50.00,$50.00,,,,,$50.00,1360 Vallecito Road,07/03/18,#  0340,CA,93014,
+# 031514,July,Norman Cota,4725 Aragon Drive,Carpinteria,$55.00,$55.00,,,,,$55.00,4725 Aragon Drive,07/06/18,#  2302,CA,93013,
+# 120104,July,Nysa LaFevers,1470 Trenora Street,Carpinteria,$80.00,$80.00,,,,,$80.00,1470 Trenora St,07/06/18,#  2565,CA,93013,
+# 151519,Bad Debt,Ocean Oaks School,4500 A Foothill Road,Carpinteria,$165.00,$65.00,previous months,,$100.00,,$200.00,4500 A Foothill Rd,01/23/18,#  7937,CA,93013,
+# 152012,August,Ocean Ten LLC,1187 Cst.Vlg.Rd. #1-640,Santa Barbara,$95.00,$95.00,,,,,$95.00,55 Ocean View Ave,08/02/18,#  0418,CA,93108,
+# 022104,July,Pam Gross / Don Burr,4495 El Carro Lane,Carpinteria,$165.00,$55.00,previous months,,$110.00,,$55.00,4495 El Carro Ln,05/24/18,#  2416,CA,93013,
+# 160112,July,Pamela Lange,107 W. Quinto Street,Santa Barbara,$135.00,$135.00,,,,,$270.00,3960 Foothill Road,06/06/18,#  1829,CA,93105,
+# 130503,July,Paul & Corin Medel,1471 La Paloma,Carpinteria,$195.00,$65.00,previous months,,$130.00,,$130.00,1471 La Paloma,06/24/18,#  5407,CA,93013,XXXX
+# 131916,July,Paulette Miller,4496 El Carro Lane,Carpinteria,$70.00,$70.00,,,,,$70.00,4496 El Carro Lane,07/18/18,#  1249,CA,93013,
+# 191316,August,Pauline Smith,839 Arbol Verde,Carpinteria,$120.00,$120.00,,,,,$120.00,839 Arbol Verde,08/02/18,#  5441,CA,93013,
+# 080116,August,Phillip Harnsberger,1486 Eucalyptus Street,Carpinteria,$65.00,$65.00,,,,,$130.00,1486 Eucalyptus Street,07/06/18,#  0761,CA,93013,
+# 160516,August,Priscilla Whittaker,5654 Canalino Drive,Carpinteria,$85.00,$85.00,,,,,$85.00,5654 Canalino Dr,08/02/18,#  9801,CA,93013,
+# 190818,July,Rick Shade,5000 Foothill Road,Carpinteria,$110.00,$110.00,,,,,$110.00,5000 Foothill Road,07/11/18,#  1906,CA,93013,
+# 260502,July,Robert Zemke,5595 Retorno Drive,Carpinteria,$45.00,$45.00,serviced on 07/25/18,,,,$45.00,5595 Retorno Dr,06/09/18,#  5145,CA,93013,XXXX
+# 162118,September,Robyn Pursell,5427 Cameo Road,Carpinteria,$77.00,$55.00,rose spray & application,,$22.00,,$220.00,5421 Cameo Rd,06/06/18,#  0397,CA,93013,
+# 101518,August,Rocky Jordan,2211 Cervato Drive,Camarillo,$100.00,$100.00,,,,,$100.00,5355 Ogan Road,08/02/18,#  1183,CA,93012,
+# 141518,July,Romo Morente,4705 Aragon Drive,Carpinteria,$98.00,$98.00,,,,,$196.00,4705 Aargon Drive,08/03/18,#  0882,CA,93013,
+# 080502,August,Roy Hepp,767 Calle Rey Mar,Carpinteria,$65.00,$65.00,,,,,$65.00,767 Calle Rey Mar,08/02/18,#  2167,CA,93013,
+# 191319,July,Scott Smith,4446 Mesa Lane,Carpinteria,$85.00,$85.00,,,,,$85.00,4446 Mesa Lane,07/11/18,#  0947,CA,93013,
+# 230804,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$70.00,$70.00,,,,,$70.00,"1736 Villa Ave, S.B.",08/02/18,# 11687,CA,93013,???
+# 230804,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$85.00,$85.00,,,,,$85.00,4708 3rd St,08/02/18,# 11739,CA,93013,???
+# 181513,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$90.00,$90.00,,,,,$90.00,1272 Byrnes Lane,08/02/18,#  3725,CA,93013,???
+# 230804,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$70.00,$70.00,,,,,$70.00,1426 Camellia Circle,08/02/18,# 11689,CA,93013,???
+# 230804,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$90.00,$90.00,,,,,$90.00,1509 Meadow Circle,08/02/18,# 11688,CA,93013,???
+# 001115,August,Seascape Realty,4915 Carp Ave Suite C,Carpinteria,$70.00,$70.00,,,,,$70.00,"Golden Gate, Summerland",08/02/18,# 11740,CA,93013,???
+# 120102,July,Sharon Therry,3008 Belden Drive,Los Angeles,$180.00,$90.00,previous month,,$90.00,,$90.00,5596 Retorno Drive,06/06/18,#  7132,CA,90068,
+# 101519,July,Shirley Johnson,5625 Calle Pacific,Carpinteria,$65.00,$65.00,,,,,$65.00,5625 Calle Pacific,07/18/18,#  7861,CA,93013,
+# 111503,July,Stephen & Denise Kono,5433 Cameo Road,Carpinteria,$73.00,$73.00,,,,,$73.00,5433 Cameo Road,07/06/18,#  5490,CA,93013,
+# 021903,July,"Sterling Mountain, LLC",319 Loma Media,Santa Barbara,$100.00,$100.00,,,,,$100.00,"1394 Sterling Ave, Carp",07/11/18,#  1857,CA,93103,
+# 140120,July,Tal Margalith,3883 Via Las Brisas,Santa Barbara,$70.00,$70.00,,,,,$70.00,3883 Via Las Brisas,07/11/18,#  3121,CA,93110,
+# 010420,July,Tara Adams,1350 Limu Drive,Carpinteria,$50.00,$50.00,,,,,$50.00,1350 Limu Drive,07/18/18,#  0581,CA,93013,
+# 200507,July,Teri Gonzales,3131 Old Coach Drive,Camarillo,$130.00,$130.00,,,,,$130.00,4907 3rd St. Carpinteria,07/11/18,#  1474,CA,93010,
+# 130520,July,Terry Merrick,750 Calle Rey Mar,Carpinteria,$100.00,$100.00,,,,,$100.00,750 Calle Rey Mar,07/25/18,#  1743,CA,93013,
+# 081508,July,Terry Taira,5351 Star Pine Road,Carpinteria,$120.00,$120.00,,,,,$120.00,5351 Star Pine Road,07/03/18,#  3605,CA,93013,
+# 021519,July,The Bottle Shop,1200 Coast Village Road,Montecito,$100.00,$100.00,,,,,$100.00,1200 Coast Village Road,07/06/18,# 13988,CA,93108,
+# 130320,July,Tom McAlexander,1475 La Paloma,Carpinteria,$55.00,$55.00,,,,,$55.00,1475 La Paloma,07/06/18,#  6707,CA,93013,
+# 201514,July,Tom Murdy,6617 Arozena Lane,Carpinteria,$130.00,$130.00,,,,,$130.00,"12 Lorinda, S.B.",07/11/18,#  3230,CA,93013,
+# 071520,October,Twila Goodrick,1471 La Jolla Place,Carpinteria,$70.00,$70.00,,,,,$70.00,1471 La Jolla Pl,07/11/18,#  0777,CA,93013,
+# 192319,August,Willa Shapiro,3865 Via Las Brisas,Santa Barbara,$90.00,$90.00,,,,,$90.00,3865 Via Las Brisas,08/02/18,#  9172,CA,93110,
+# 021808,July,William Bromell,11812 San Vicente Bl #200,Los Angeles,$90.00,$90.00,,,,,$90.00,855 Dorrance Way/Carp,07/11/18,#  1500,CA,90049,
+# 101511,July,William Lord,1475 La Jolla Pl,Carpinteria,$80.00,$80.00,,,,,$80.00,1475 La Jolla Pl,07/11/18,#  3637,CA,93013,
+# 252208,July,Yvonne Heltman,4878 Dorrance Way,Carpinteria,$175.00,$90.00,Dorrance Way,,$85.00,,$175.00,4946 7th Street,07/06/18,# 10257,CA,93013,
+# 021503,July,Margaret Smith / Pac Shore,5250 Creston Lane,Somis,$95.00,$95.00,,,,,$95.00,4848 Sandyland Road,07/11/18,#  8049,CA,93066,XXXX

@@ -1,0 +1,42 @@
+! DB
+Table 1 - Billing
+ID
+Billing Month
+Customer Name
+Billing Address
+City
+Total
+Monthly Amt
+Comment 1
+Comment 2
+Cmt 1 AmtCmt 2 AmtAmt Rec'd
+Location AddressDate Rec'd
+Ck No
+State
+Zip
+
+Table 2 - Data
+Customer Count ()
+Name
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Total
+
+Hidden
+Year count
+12 columns per year per customer for each billed and paid
+code as double integers
+yearly total per customer
+"Date check recieved" should auto format to 6 digit-date
+auto add "additional expenses and credits" (comment 1 and comment 2)
+

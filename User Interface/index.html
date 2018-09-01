@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olivas Mowing Service Customer Database</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Olivas Mowing Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" title="Casa">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="billCx.html" title="Facturacion">Invoicing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payments.html" title="Pagos">Payments</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Crear">
+                Create
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="createCustomer.html" title="Crear Cliente">Create Customer</a>
+                <a class="dropdown-item" href="createLocation.html" title="Crear Ubicacion">Create Location</a>
+                <div class="dropdown-divider"></div>
+                <!-- <a class="dropdown-item" href="search.html" title="Localizar Cliente">Search Customer</a>
+                <a class="dropdown-item" href="search.html" title="Localizar Ubicacion">Search Location</a> -->
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html" title="Buscar">Search</a>
+            </li>
+            <li class="nav-item">
+              <!--<a class="nav-link disabled" href="#">Disabled</a>-->
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+          </form>
+        </div>
+      </nav>
+      <div class="gradient">
+        <center><h1>Olivas Mowing Service Customer Database</h1></center>
+        <hr>
+      </div>
+      <form method="GET">
+        <center>
+          <div class="boxmodel">
+            <p>Which day would you like to work with?<br>
+            <input type="date" name="date" title="Con que dia te gustaria trabajar?"></p>
+          </div>
+          <div>
+            <p><a href="billCx.html"><input type="button" class="btn btn-outline-dark" value="Set Date (Link Working)" title="Buscar"/></a></p>
+          </div>
+          <div>
+            <form method="POST" action="changeOMSInfo.html">
+              <p><a href="changeOMSInfo.html"><input type="button" class="btn btn-outline-dark" value="Change Olivas Mowing Service Company Information" title="Cambiar Informacion de Olivas Mowing Service" onclick="changeInfo()"/></a></p>
+            </form>
+          </div>
+          <div>
+            <p><input type="submit" class="btn btn-outline-dark" value="New Year Routine (Not Working)" title="Rutina de Nuevo Ano"></p>
+          </div>
+          <br>
+          <hr>
+
+          <br>
+          <input type="submit" class="btn btn-outline-dark" value="Close Program (Not Working)" title="Cerrar Programa">
+        </center>
+      </form>
+      <script>function changeInfo() {location.href="changeOMSInfo.html"}</script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+
+</html>

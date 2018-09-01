@@ -1,0 +1,272 @@
+# locTbl.sql
+# by Shawn Rice
+# 8/20/2018
+# Location database table for OMS Mowing
+# Locations are entered independently, and tied to customers by use of a Foreign Key (Primary Key tied to the owner in the cxTbl Table) as a field\column.
+
+Service Sites
+	# Location ID (Primary Key)
+		locID =
+	
+	# Building Number
+		bldgNum = 
+	
+	# Street Name
+		stName =
+		
+	# Zip Code
+		zipCode =
+	
+	# City
+		city =	
+	
+	# State
+		state =	
+	
+	# Balances are a query, calcs are performed on the SQL side and requested on the HTML side via (Python??)
+	# Location Balance
+		locBal = 
+		Server: Totaled from past totals and payments, and stored as a float
+		
+		Client:	Queried from locBal1, locBal2, locBal3,... in locTbl Table per Primary Key	
+	
+	# Billing Dates \ Costs \ Payments \ Balance
+			 
+		# January
+			# Billing Date
+				janBillDate =
+			# Monthly Costs
+				janBillCost =
+			# Comments 1
+				janBillCom1 =
+			# Additions 1
+				janBillAdd1 =
+			# Comments 2
+				janBillCom2 = 
+			# Additions 2
+				janBillAdd2 =
+			# Monthly Total
+				janBillTot = 
+			# Payments
+				janBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of Jan billing
+				janBillBal =  # added to prevYearBal
+
+		# February
+			# Billing Date
+				febBillDate =
+			# Monthly Costs
+				febBillCost =
+			# Comments 1
+				febBillCom1 =
+			# Additions 1
+				febBillAdd1 =
+			# Comments 2
+				febBillCom2 = 
+			# Additions 2
+				febBillAdd2 =
+			# Monthly Total
+				febBillTot = 
+			# Payments
+				febBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of feb billing
+				febBillBal =  
+			
+		# March
+			# Billing Date
+				marBillDate =
+			# Monthly Costs
+				marBillCost =
+			# Comments 1
+				marBillCom1 =
+			# Additions 1
+				marBillAdd1 =
+			# Comments 2
+				marBillCom2 = 
+			# Additions 2
+				marBillAdd2 =
+			# Monthly Total
+				marBillTot = 
+			# Payments
+				marBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of mar billing
+				marBillBal =  
+			
+		# April
+			# Billing Date
+				aprBillDate =
+			# Monthly Costs
+				aprBillCost =
+			# Comments 1
+				aprBillCom1 =
+			# Additions 1
+				aprBillAdd1 =
+			# Comments 2
+				aprBillCom2 = 
+			# Additions 2
+				aprBillAdd2 =
+			# Monthly Total
+				aprBillTot = 
+			# Payments
+				aprBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of apr billing
+				aprBillBal =  
+			
+		# May
+			# Billing Date
+				mayBillDate =
+			# Monthly Costs
+				mayBillCost =
+			# Comments 1
+				mayBillCom1 =
+			# Additions 1
+				mayBillAdd1 =
+			# Comments 2
+				mayBillCom2 = 
+			# Additions 2
+				mayBillAdd2 =
+			# Monthly Total
+				mayBillTot = 
+			# Payments
+				mayBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of may billing
+				mayBillBal =  
+			
+		# June
+			# Billing Date
+				junBillDate =
+			# Monthly Costs
+				junBillCost =
+			# Comments 1
+				junBillCom1 =
+			# Additions 1
+				junBillAdd1 =
+			# Comments 2
+				junBillCom2 = 
+			# Additions 2
+				junBillAdd2 =
+			# Monthly Total
+				junBillTot = 
+			# Payments
+				junBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of jun billing
+				junBillBal =  
+
+		# July
+			# Billing Date
+				julBillDate =
+			# Monthly Costs
+				julBillCost =
+			# Comments 1
+				julBillCom1 =
+			# Additions 1
+				julBillAdd1 =
+			# Comments 2
+				julBillCom2 = 
+			# Additions 2
+				julBillAdd2 =
+			# Monthly Total
+				julBillTot = 
+			# Payments
+				julBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of jul billing
+				julBillBal =  
+		# August
+			# Billing Date
+				augBillDate =
+			# Monthly Costs
+				augBillCost =
+			# Comments 1
+				augBillCom1 =
+			# Additions 1
+				augBillAdd1 =
+			# Comments 2
+				augBillCom2 = 
+			# Additions 2
+				augBillAdd2 =
+			# Monthly Total
+				augBillTot = 
+			# Payments
+				augBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of aug billing
+				augBillBal =  
+		
+		# September
+			# Billing Date
+				sepBillDate =
+			# Monthly Costs
+				sepBillCost =
+			# Comments 1
+				sepBillCom1 =
+			# Additions 1
+				sepBillAdd1 =
+			# Comments 2
+				sepBillCom2 = 
+			# Additions 2
+				sepBillAdd2 =
+			# Monthly Total
+				sepBillTot = 
+			# Payments
+				sepBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of sep billing
+				sepBillBal =  
+	
+		# October
+			# Billing Date
+				octBillDate =
+			# Monthly Costs
+				octBillCost =
+			# Comments 1
+				octBillCom1 =
+			# Additions 1
+				octBillAdd1 =
+			# Comments 2
+				octBillCom2 = 
+			# Additions 2
+				octBillAdd2 =
+			# Monthly Total
+				octBillTot = 
+			# Payments
+				octBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of oct billing
+				octBillBal =  
+	
+		# November
+			# Billing Date
+				novBillDate =
+			# Monthly Costs
+				novBillCost =
+			# Comments 1
+				novBillCom1 =
+			# Additions 1
+				novBillAdd1 =
+			# Comments 2
+				novBillCom2 = 
+			# Additions 2
+				novBillAdd2 =
+			# Monthly Total
+				novBillTot = 
+			# Payments
+				novBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of nov billing
+				novBillBal =  
+			
+		# December
+			# Billing Date
+				decBillDate =
+			# Monthly Costs
+				decBillCost =
+			# Comments 1
+				decBillCom1 =
+			# Additions 1
+				decBillAdd1 =
+			# Comments 2
+				decBillCom2 = 
+			# Additions 2
+				decBillAdd2 =
+			# Monthly Total
+				decBillTot = 
+			# Payments
+				decBillPay = # Subtracted from both locBal and cxBal
+			# Location Balance # rolling balance as of dec billing
+				decBillBal =  

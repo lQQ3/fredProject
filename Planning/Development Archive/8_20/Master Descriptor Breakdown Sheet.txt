@@ -1,0 +1,49 @@
+First screen should ask for today's date
+	Everything from that point applies the user entered date-population
+	Create "New Year" routine, (close last year's tables, zip them up into a labled folder, and create the new year's table), and package into a button.
+	
+TABLES
+	OMS_custDB
+	OMS_locDB
+	
+TABLES (DB)
+	customersDB
+	locationsDB
+
+FORMS
+	*overall design*
+	Service Location Detail
+	Customer Detail
+	Invoice will be a report
+
+QUERIES
+
+
+REPORTS
+Annual total
+	Monthly invoice
+		Customer Name, Billing Address, Phone number, Location Address, Billing Month, Billing Date, Monthly Subtotal, Comments and ammounts, Monthly Total
+	Monthly payment receipts
+		Customer Name, Billing Address, Phone number, Location Address, Billing Month, Billing Date, Monthly Subtotal, Comments and ammounts, Monthly Total, Date of Reciept, Ck No, Receipt amount
+	Customer Locations
+		Customer Name, Billing Address, Phone number, Location Address, Location Balance
+	Customer Balance
+		Customer Name, Billing Address, Phone number, Location Address, Billing Month, Billing Date, Monthly Subtotal, Comments and ammounts, Monthly Total, Date of Reciept, Ck No, Receipt amount, Annual Total, Monthly Payments Total
+	Location Balance
+		Customer Name, Billing Address, Phone number, Location Address, Billing Month, Billing Date, Monthly Subtotal, Comments and ammounts, Monthly Total, Date of Reciept, Ck No, Receipt amount, Annual Total, Monthly Payments Total
+	
+	Search
+	
+
+QUESTIONS
+	which reports
+	overall design
+		manual date-population on check entering done automatically
+		
+	small "balance due upon receipt"?
+
+TO-DO
+	Make Links
+	Yearly Roll-over
+	Backups
+	CRUD ability

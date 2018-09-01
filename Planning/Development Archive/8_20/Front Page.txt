@@ -1,0 +1,50 @@
+# frontPage.py
+# Location Detail Form Breakdown Sheet for OMS Mowing
+# by Shawn Rice
+# 8/20/2018
+
+### Declare Variables###
+### Local ###
+
+### Global ###
+user = 
+password = 
+date = 
+billingYear = 
+
+### cxTbl ###
+
+### locTbl ###
+
+########################	
+
+# Connect to database
+	connection = connection.connector OMS_db
+
+# User is prompted for date, "new year" routine, or close application
+	date = var("¿Qué es la fecha?")
+	
+	Año de Facturación \ Billing Year
+				print "billingYear"
+				print "¿Es esto correcto? \ Is this correct?"
+				
+# Search
+	by name
+	by location 
+	by phone number 
+	by city 
+	by zip code
+	by state
+	some way to search prior year's records
+	CRUD method
+	
+# New Year Routine
+	Save current tables as "OMS_Mowing_cxTbl(billingYear)" and "OMS_Mowing_locTbl(billingYear)"
+	Compress both as self-extracting .rar file and name "OMS_MowingDB(billingYear).rar"
+	copy OMS_MowingDB(billingYear).rar to local (manual monthly?) and online backup (Google Drive?)
+	make new tables for coming year
+	transfer all customers, locations and balances to new tables
+	
+# Close Application
+	Save
+	Close connection to database

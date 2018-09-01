@@ -1,0 +1,328 @@
+# cxResDetailForm.py
+# Customer Detail Form Breakdown Sheet for OMS Mowing
+# by Shawn Rice
+# 8/20/2018
+#
+###Define Variables###
+###local###
+
+### Global ###
+
+user = 
+password = 
+date = 
+billingYear = 
+
+###cxTbl###
+cxID =  
+lastName = 
+firstName = 
+phone1 = 
+phone2 = 
+bldgNum	= 
+stName =
+zipCode =
+city =
+state = 
+prevYearBal = 
+cxBal = 
+###locTbl###
+locID =
+bldgNum = 
+stName =
+zipCode =
+city =	
+state =	
+locBal = 
+janBillDate =
+janBillCost =
+janBillCom1 =
+janBillAdd1 =
+janBillCom2 = 
+janBillAdd2 =
+janBillTot = 
+janBillPay = # Subtracted from both locBal and cxBal
+janBillBal =  # added to prevYearBal
+febBillDate =
+febBillCost =
+febBillCom1 =
+febBillAdd1 =
+febBillCom2 = 
+febBillAdd2 =
+febBillTot = 
+febBillPay = # Subtracted from both locBal and cxBal
+febBillBal =  
+marBillDate =
+marBillCost =
+marBillCom1 =
+marBillAdd1 =
+marBillCom2 = 
+marBillAdd2 =
+marBillTot = 
+marBillPay = # Subtracted from both locBal and cxBal
+marBillBal =  
+aprBillDate =
+aprBillCost =
+aprBillCom1 =
+aprBillAdd1 =
+aprBillCom2 = 
+aprBillAdd2 =
+aprBillTot = 
+aprBillPay = # Subtracted from both locBal and cxBal
+aprBillBal =  
+mayBillDate =
+mayBillCost =
+mayBillCom1 =
+mayBillAdd1 =
+mayBillCom2 = 
+mayBillAdd2 =
+mayBillTot = 
+mayBillPay = # Subtracted from both locBal and cxBal
+mayBillBal =  
+junBillDate =
+junBillCost =
+junBillCom1 =
+junBillAdd1 =
+junBillCom2 = 
+junBillAdd2 =
+junBillTot = 
+junBillPay = # Subtracted from both locBal and cxBal
+junBillBal =  
+julBillDate =
+julBillCost =
+julBillCom1 =
+julBillAdd1 =
+julBillCom2 = 
+julBillAdd2 =
+julBillTot = 
+julBillPay = # Subtracted from both locBal and cxBal
+julBillBal =  
+augBillDate =
+augBillCost =
+augBillCom1 =
+augBillAdd1 =
+augBillCom2 = 
+augBillAdd2 =
+augBillTot = 
+augBillPay = # Subtracted from both locBal and cxBal
+augBillBal =  
+sepBillDate =
+sepBillCost =
+sepBillCom1 =
+sepBillAdd1 =
+sepBillCom2 = 
+sepBillAdd2 =
+sepBillTot = 
+sepBillPay = # Subtracted from both locBal and cxBal
+sepBillBal =  
+octBillDate =
+octBillCost =
+octBillCom1 =
+octBillAdd1 =
+octBillCom2 = 
+octBillAdd2 =
+octBillTot = 
+octBillPay = # Subtracted from both locBal and cxBal
+octBillBal =  
+novBillDate =
+novBillCost =
+novBillCom1 =
+novBillAdd1 =
+novBillCom2 = 
+novBillAdd2 =
+novBillTot = 
+novBillPay =
+novBillBal =  
+decBillDate =
+decBillCost =
+decBillCom1 =
+decBillAdd1 =
+decBillCom2 = 
+decBillAdd2 =
+decBillTot = 
+decBillPay = 
+decBillBal = 
+#######################
+
+# Connect to database
+	connection = connection.connector OMS_db
+
+	Año de Facturación \ Billing Year
+				print "billingYear"
+	
+# CRUD method
+	
+# Billing Information
+Detalles del Cliente \ Customer Details 
+
+	Cliente ID \ Customer ID
+		Taken from cxID in cxTbl Table per Primary Key
+	
+	Apellido \ Last Name
+		Taken from lastName in cxTbl Table per Primary Key
+	
+	Nombre de Pila \ First Name
+		Taken from firstName in cxTbl Table per Primary Key
+	
+	Número de Teléfono Primario \ Primary Telephone Number
+		Taken from phone1 in cxTbl Table per Primary Key
+	
+	Número de Teléfono Secundario \ Secondary Telephone Number
+		Taken from phone2 in cxTbl Table per Primary Key
+		
+	Balance de Cliente \ Customer Balance
+		Server: Totaled from past totals and payments, and stored as a float (cxBal)
+		
+		Client: Taken from cxBal in cxTbl Table per Primary Key
+		
+	Ubicación de Facturación \ Billing Location
+		Same as Service Sites
+	
+# Locations are entered independently, and tied to customers by use of a Foreign Key (Primary Key tied to the owner in the cxTbl Table) as a field\column.
+# Service Site
+	Sitio de Servicio \ Service Site
+	
+	Ubicación ID \ Location ID
+		Taken from locID in locTbl Table per Primary Key	
+	
+	Número de Edificio \Building Number
+		Taken from bldgNum in locTbl Table per Primary Key	
+	
+	Nombre de la Calle\ Street Name
+		Taken from stName in locTbl Table per Primary Key	
+		
+	Código Postal \ Zip Code
+		Taken from zipCode in locTbl Table per Primary Key	
+	
+	Ciudad \ City
+		Taken from city in locTbl Table per Primary Key	
+	
+	Estado\ State
+		Taken from state in locTbl Table per Primary Key	
+	
+	# Balances are a query, calcs are performed on the SQL side and requested on the HTML side via (Python??)
+	Balance de Ubicación \ Location Balance
+		Server: Totaled from past totals and payments, and stored as a float
+		
+		Client:	Taken from locBal1, locBal2, locBal3,... in locTbl Table per Primary Key	
+	
+	# Billing Dates \ Costs \ Payments \ Balance
+	Fechas de Facturación \ Billing Dates
+		 
+		Enero \ January
+			Fechas de Facturación \ Billing Date
+				Taken from janBillDate in locTbl Table per Primary Key
+			Tootal Mensua \ Monthly Total
+				Taken from janBillCost in locTbl Table per Primary Key
+			Pagos \ Payments
+				Taken from janBillPay in locTbl Table per Primary Key
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from janBillBal in locTbl Table per Primary Key and added to prevYearBal
+
+		February
+			Fechas de Facturación \ Billing Date
+				Taken from febBillDate in locTbl Table per Primary Key
+			Costo Mensua \ Monthly Costs
+				Taken from febBillCost in locTbl Table per Primary Key
+			Pagos \ Payments
+				Taken from febBillPay in locTbl Table per Primary Key
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from febBillBal in locTbl Table per Primary Key 
+			
+		Marzo \ March
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+			
+		April
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+			
+		May
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+			
+		June
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+
+		July
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+
+		August
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+
+		September
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+	
+		October
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+	
+		November
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+			
+		December
+			Fechas de Facturación \ Billing Date
+			
+			Costo Mensua \ Monthly Costs
+			
+			Pagos \ Payments
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+			
+			
+			
+			
+	
+	
+	
+close database connection

@@ -1,0 +1,397 @@
+# locDetailForm.py
+# Location Detail Form Breakdown Sheet for OMS Mowing
+# by Shawn Rice
+# 8/20/2018
+
+# Connect to database
+	connection = connection.connector OMS_db
+
+### Declare Variables###
+
+########################	
+# Service Sites 1, 2, 3,...
+Sitios de Servicio \ Service Sites
+	
+	Ubicación ID \ Location ID
+		Taken from locID in locTbl Table per Primary Key
+
+	Información de Contacto del Cliente \ Customer Contact information
+		Cliente ID \ Customer ID
+			Taken from cxID in cxTbl Table per Primary Key		
+		
+		Apellido \ Last Name
+			Taken from lastName in cxTbl Table per Primary Key
+	
+		Nombre de Pila \ First Name
+			Taken from firstName in cxTbl Table per Primary Key
+		
+		Número de Teléfono Primario \ Primary Telephone Number
+			Taken from phone1 in cxTbl Table per Primary Key
+	
+		Número de Teléfono Secundario \ Secondary Telephone Number
+			Taken from phone2 in cxTbl Table per Primary Key
+	
+	Número de Edificio \Building Number
+		Taken from bldgNum in locTbl Table per Primary Key	
+	
+	Nombre de la Calle\ Street Name
+		Taken from stName in locTbl Table per Primary Key	
+		
+	Código Postal \ Zip Code
+		Taken from zipCode in locTbl Table per Primary Key	
+	
+	Ciudad \ City
+		Taken from city in locTbl Table per Primary Key	
+	
+	Estado\ State
+		Taken from state in locTbl Table per Primary Key	
+	
+	# Balances are a query, calcs are performed on the SQL side and requested on the HTML side via (Python??)
+	Balance de Ubicación \ Location Balance
+		Server: Totaled from past totals and payments, and stored as a float
+		
+		Client:	Taken from locBal1, locBal2, locBal3,... in locTbl Table per Primary Key	
+	
+	# Billing Dates \ Costs \ Payments \ Balance
+	Fechas de Facturación \ Billing Dates
+		 
+		Enero \ January
+			Fechas de Facturación \ Billing Date
+				Taken from janBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from janBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from janBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from janBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from janBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from janBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from janBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from janBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from janBillBal in locTbl Table per Primary Key and added to prevYearBal
+
+		February
+			Fechas de Facturación \ Billing Date
+				Taken from febBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from febBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from febBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from febBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from febBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from febBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from febBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from febBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from febBillBal in locTbl Table per Primary Key
+			
+		Marzo \ March
+			Fechas de Facturación \ Billing Date
+				Taken from marBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from marBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from marBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from marBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from marBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from marBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from marBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from marBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from marBillBal in locTbl Table per Primary Key
+			
+		April
+			Fechas de Facturación \ Billing Date
+				Taken from aprBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from aprBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from aprBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from aprBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from aprBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from aprBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from aprBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from aprBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from aprBillBal in locTbl Table per Primary Key
+			
+		May
+			Fechas de Facturación \ Billing Date
+				Taken from mayBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from mayBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from mayBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from mayBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from mayBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from mayBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from mayBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from mayBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from mayBillBal in locTbl Table per Primary Key
+			
+		June
+			Fechas de Facturación \ Billing Date
+				Taken from junBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from junBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from junBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from junBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from junBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from junBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from junBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from junBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from junBillBal in locTbl Table per Primary Key
+		July
+			Fechas de Facturación \ Billing Date
+				Taken from julBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from julBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from julBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from julBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from julBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from julBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from julBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from julBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from julBillBal in locTbl Table per Primary Key
+
+		August
+			Fechas de Facturación \ Billing Date
+				Taken from augBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from augBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from augBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from augBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from augBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from augBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from augBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from augBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from augBillBal in locTbl Table per Primary Key
+
+		September
+			Fechas de Facturación \ Billing Date
+				Taken from sepBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from sepBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from sepBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from sepBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from sepBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from sepBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from sepBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from sepBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from sepBillBal in locTbl Table per Primary Key
+	
+		October
+			Fechas de Facturación \ Billing Date
+				Taken from octBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from octBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from octBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from octBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from octBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from octBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from octBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from octBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from octBillBal in locTbl Table per Primary Key
+	
+		November
+			Fechas de Facturación \ Billing Date
+				Taken from novBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from novBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from novBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from novBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from novBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from novBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from novBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from novBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from novBillBal in locTbl Table per Primary Key
+			
+		December
+			Fechas de Facturación \ Billing Date
+				Taken from decBillDate in locTbl Table per Primary Key
+			
+			Costos Mensuales\ Monthly Costs
+				Taken from decBillCost in locTbl Table per Primary Key
+			
+			Comentarios 1 \ Comments 1
+				Taken from decBillCom1 in locTbl Table per Primary Key
+			
+			Adiciones 1 \ Additions 1
+				Taken from decBillAdd1 in locTbl Table per Primary Key
+			
+			Comentarios 2 \ Comments 2
+				Taken from decBillCom2 in locTbl Table per Primary Key
+			
+			Adiciones 2 \ Additions 2
+				Taken from decBillAdd2 in locTbl Table per Primary Key
+			
+			Total Mensual \ Monthly Total
+				Taken from decBillTot in locTbl Table per Primary Key
+			
+			Pagos \ Payments
+				Taken from decBillPay in locTbl Table per Primary Key
+			
+			Saldo de la Ubicación \ Location Balance # rolling balance
+				Taken from decBillBal in locTbl Table per Primary Key
+			
+			
+			
+			
+			
+close database connection

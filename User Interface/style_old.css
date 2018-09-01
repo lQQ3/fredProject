@@ -1,0 +1,75 @@
+all text larger
+builing number -> street number
+* {
+  font-size: large
+}
+title {
+  text-align: center;
+}
+head {
+  text-align: center;
+  border: 5px solid rgba(0, 58, 10, 0.3);
+}
+header {
+  background-image: url(/images/lawnmowerDrawingOriginal.jpg);
+    border: 5px solid rgba(0, 58, 10, 0.3);
+}
+body {
+  background-image: linear-gradient(light green, green);
+}
+input {
+  cursor: pointer;
+}
+select {
+  cursor: pointer;
+}
+.boxmodel {
+  border: 3px solid rgba(0, 58, 10, 0.3);
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+.input {
+    position: relative;
+}
+
+.tooltip {
+    display: none;
+    padding: 10px;
+}
+
+.input:hover .tooltip {
+    background: blue;
+    border-radius: 3px;
+    bottom: -60px;
+    color: white;
+    display: inline;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+}
+
+.input:hover .tooltip:before {
+    display: block;
+    content: "test";
+    position: absolute;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid blue;
+}
+/* <ul>
+  display: inline-block;
+  <center>
+    <a href="index.html">Casa \ Home</a>
+    <a href="search.html">Buscar \ Search</a>
+    <a href="OMS_Invoice.html">Facturacion \ Invoicing</a>
+    <br>
+    <a href="createCustomer.html">Crear Cliente \ Create Customer</a>
+    <a href="createLocation">Crear Ubicacion \ Create Location</a>
+  </center
+</ul>
+?*

@@ -1,0 +1,176 @@
+# frontPage.py
+# Location Detail Form Breakdown Sheet for OMS Mowing
+# by Shawn Rice
+# 8/20/2018
+
+### Declare Variables###
+### Local ###
+
+### Global ###
+
+user = 
+password = 
+date = 
+billingYear = 
+
+### cxTbl ###
+cxID =  
+lastName = 
+firstName = 
+phone1 = 
+phone2 = 
+bldgNum	= 
+stName =
+zipCode =
+city =
+state = 
+prevYearBal = 
+cxBal = 
+### locTbl ###
+locID =
+bldgNum = 
+stName =
+zipCode =
+city =	
+state =	
+locBal = 
+janBillDate =
+janBillCost =
+janBillCom1 =
+janBillAdd1 =
+janBillCom2 = 
+janBillAdd2 =
+janBillTot = 
+janBillPay = # Subtracted from both locBal and cxBal
+janBillBal =  # added to prevYearBal
+febBillDate =
+febBillCost =
+febBillCom1 =
+febBillAdd1 =
+febBillCom2 = 
+febBillAdd2 =
+febBillTot = 
+febBillPay = # Subtracted from both locBal and cxBal
+febBillBal =  
+marBillDate =
+marBillCost =
+marBillCom1 =
+marBillAdd1 =
+marBillCom2 = 
+marBillAdd2 =
+marBillTot = 
+marBillPay = # Subtracted from both locBal and cxBal
+marBillBal =  
+aprBillDate =
+aprBillCost =
+aprBillCom1 =
+aprBillAdd1 =
+aprBillCom2 = 
+aprBillAdd2 =
+aprBillTot = 
+aprBillPay = # Subtracted from both locBal and cxBal
+aprBillBal =  
+mayBillDate =
+mayBillCost =
+mayBillCom1 =
+mayBillAdd1 =
+mayBillCom2 = 
+mayBillAdd2 =
+mayBillTot = 
+mayBillPay = # Subtracted from both locBal and cxBal
+mayBillBal =  
+junBillDate =
+junBillCost =
+junBillCom1 =
+junBillAdd1 =
+junBillCom2 = 
+junBillAdd2 =
+junBillTot = 
+junBillPay = # Subtracted from both locBal and cxBal
+junBillBal =  
+julBillDate =
+julBillCost =
+julBillCom1 =
+julBillAdd1 =
+julBillCom2 = 
+julBillAdd2 =
+julBillTot = 
+julBillPay = # Subtracted from both locBal and cxBal
+julBillBal =  
+augBillDate =
+augBillCost =
+augBillCom1 =
+augBillAdd1 =
+augBillCom2 = 
+augBillAdd2 =
+augBillTot = 
+augBillPay = # Subtracted from both locBal and cxBal
+augBillBal =  
+sepBillDate =
+sepBillCost =
+sepBillCom1 =
+sepBillAdd1 =
+sepBillCom2 = 
+sepBillAdd2 =
+sepBillTot = 
+sepBillPay = # Subtracted from both locBal and cxBal
+sepBillBal =  
+octBillDate =
+octBillCost =
+octBillCom1 =
+octBillAdd1 =
+octBillCom2 = 
+octBillAdd2 =
+octBillTot = 
+octBillPay = # Subtracted from both locBal and cxBal
+octBillBal =  
+novBillDate =
+novBillCost =
+novBillCom1 =
+novBillAdd1 =
+novBillCom2 = 
+novBillAdd2 =
+novBillTot = 
+novBillPay =
+novBillBal =  
+decBillDate =
+decBillCost =
+decBillCom1 =
+decBillAdd1 =
+decBillCom2 = 
+decBillAdd2 =
+decBillTot = 
+decBillPay = 
+decBillBal = 
+########################	
+
+# Connect to database
+	connection = connection.connector OMS_db
+
+# User is prompted for date, "new year" routine, search, or close application
+	date = var("¿Qué es la fecha?")
+	
+	Año de Facturación \ Billing Year
+				print "billingYear"
+				print "¿Es esto correcto? \ Is this correct?"
+				
+# Search
+	by name
+	by location 
+	by phone number 
+	by city 
+	by zip code
+	by state
+	some way to search prior year's records
+	CRUD method
+	
+# New Year Routine
+	Save current tables as "OMS_Mowing_cxTbl(billingYear)" and "OMS_Mowing_locTbl(billingYear)"
+	Compress both as self-extracting .rar file and name "OMS_MowingDB(billingYear).rar"
+	copy OMS_MowingDB(billingYear).rar to local (manual monthly?) and online backup (Google Drive?)
+	make new tables for coming year
+	transfer all customers, locations and balances to new tables
+	
+# Close Application
+	Save
+	Close connection to database

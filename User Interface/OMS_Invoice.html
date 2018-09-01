@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olivas Mowing Service Customer Invoicing</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Olivas Mowing Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" title="Casa">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="billCx.html" title="Facturacion">Invoicing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payments.html" title="Pagos">Payments</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Crear">
+                Create
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="createCustomer.html" title="Crear Cliente">Create Customer</a>
+                <a class="dropdown-item" href="createLocation.html" title="Crear Ubicacion">Create Location</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html" title="Buscar">Search</a>
+            </li>
+            <li class="nav-item">
+              <!--<a class="nav-link disabled" href="#">Disabled</a>-->
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+          </form>
+        </div>
+      </nav>
+
+      <header>
+        <div>
+            <span class="left">
+              <p><strong>Olivas Mowing Service<br>
+                P.O. Box 12345<br>
+                Carpinteria, CA<br>
+                Zip Code</strong><br>
+                <em>(808) phn-nmbr</em></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                Customer Name<br>
+                Street Address<br>
+                City, State<br>
+                Zip Code<br>
+            </span>
+            <center>
+            <img src="images/lawnmowerDrawingOriginal.jpg">
+          </center>
+      </div>
+      </header>
+      <div>
+        <center><h1>Olivas Mowing Service Customer Invoice</h1></center>
+      </div>
+      <p>Invoice will contain: </p>
+      <ul>
+        <div>
+        <li>Customer Name</li>
+        <li>Street Address</li>
+        <li>City, State</li>
+        <li>Zip Code</li>
+      </div>
+      <h3><center><strong>Invoicing Details</strong></center></h3>
+        <h4><center><em>Current Month & Year</em></center></h4>
+        <li>Customer ID</li>
+        <li style="color:blue">Location ID (Only shown if customer owns more than one location)</li>
+        <li>Monthly Cost</li>
+        <li>Comments 1</li>
+        <li>Additions 1</li>
+        <li>Comments 2</li>
+        <li>Additions 2</li>
+      </ul>
+      <ul>
+        <li style="color:blue">  Only shown if customer owns more than one location</li>
+        <li style="color:blue"><strong>Location 2</strong></li>
+        <li style="color:blue">Monthly Location Total</li>
+        <li style="color:blue">Location ID</li>
+        <li style="color:blue">Monthly Cost</li>
+        <li style="color:blue">Comments 1</li>
+        <li style="color:blue">Additions 1</li>
+        <li style="color:blue">Comments 2</li>
+        <li style="color:blue">Additions 2</li>
+        <li style="color:blue">Monthly Location Total</li> </style>
+        <li style="color:blue">Customer Balance (if cxBal > monthBal)</li>
+        <li><strong>Monthly Customer Total</strong></li>
+      </ul>
+      <p><center><em>Balance due upon reciept.</em></center></p>
+      </ul>
+      <div>
+      <center>
+        <input type="submit" class="btn btn-outline-dark" value="Print (Not Working)" title="Impresion">
+      </center>
+      <br>
+      <br>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+
+</html>

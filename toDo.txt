@@ -1,0 +1,20 @@
+Front end
+buttons
+head gradient
+date from index.html used for all pages through session
+logo
+finish invoice page
+make payments page
+make css/js layout for all pages except invoice
+spanish titles for all entries
+make buttons on front page work
+
+
+
+Location
+Create Search
+
+
+
+Back end
+recreate schema

@@ -1,0 +1,29 @@
+# cxTbl.sql
+# by Shawn Rice
+# 8/20/2018
+# Customer database table for OMS Mowing
+
+	# Customer ID (Primary Key)
+	cxID =  
+	# Customer  Last Name
+	lastName = 
+	# Customer First Name
+	firstName = 
+	# Customer Primary Phone Number
+	phone1 = 
+	# Customer Secondary Phone Number
+	phone2 = 
+	# Building Number
+	bldgNum	= 
+	# Street Name
+	stName =
+	# Zip Code
+	zipCode =
+	# City
+	city =
+	# State
+	state = 
+	#Previous Year's Rollover Balance
+	prevYearBal = 
+	# Customer Balance
+	cxBal =   # ++(prevYearBal + current bill - payments) for each location
