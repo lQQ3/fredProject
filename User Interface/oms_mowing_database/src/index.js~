@@ -1,0 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import FrontPage from './FrontPage';
+import registerServiceWorker from './registerServiceWorker';
+import 'tachyons';
+
+ReactDOM.render(<FrontPage />, document.getElementById('root'));
+registerServiceWorker();

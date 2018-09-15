@@ -1,0 +1,108 @@
+/*all text larger*/
+/*builing number -> street number*/
+title {
+  text-align: center;
+}
+head {
+  text-align: center;
+  }
+header {
+    padding-left: 1em;
+    border: 5px solid rgba(0, 58, 10, 0.3);
+}
+
+h1 {
+    style="text-align: center;"
+}
+
+input {
+  cursor: pointer;
+}
+select {
+  cursor: pointer;
+}
+body {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+/*create frames for input boxes*/
+.boxmodel {
+  border: 3px solid rgba(0, 58, 10, 0.3);
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+.input {
+    position: relative;
+}
+
+/* Float right, center and left*/
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+.center{
+    float:center;
+}
+
+
+/*Page Title Gradient Background*/
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    green, rgb(189, 245, 186), rgb(24, 116, 22)
+    );
+}
+
+/* Tooltip container */
+.tooltip {
+   position: relative;
+   display: inline-block;
+   color: black;
+   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: #555;
+   color: #fff;
+   text-align: center;
+   padding: 5px 0;
+   border-radius: 6px;
+
+   /* Position the tooltip text */
+   position: absolute;
+   z-index: 1;
+   bottom: 125%;
+   left: 50%;
+   margin-left: -60px;
+
+   /* Fade in tooltip */
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+}

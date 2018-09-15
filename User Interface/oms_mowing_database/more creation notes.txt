@@ -1,0 +1,69 @@
+getElementsByTagName
+getElementsByClassName
+getElementById
+
+querySelector (gets contents of first id, class, tag of that type)
+querySelectorAll (gets an array of all of the requested type)
+
+IMPORTANT -> cache DOM selectors in variables
+
+break component up into elements and give id and\or class(className in react)
+
+Navbar
+	navbar links
+	search
+header w/ location
+Date(?)
+body
+	class="buttons"
+	Text
+	(make pages into <div id="" \ class="">)
+		id="stateListDropdown"
+		id="changeOMSInfo
+	Querys
+	
+	
+./oms_mowing_database
+	/public
+		index.html <root>
+			<div id="root"></div>
+		
+	/src
+		index.js 
+			import foo from './foo.js'
+			ReactDOM.render(<foo />, ,document.getElementById('root'));
+		foo.js
+		
+
+separate FrontPage (landing page after signin) & index (homepage)
+
+
+File List
+
+oms_mowing_database
+	public
+		Images Folder
+			logo.png
+		billCx.html
+		changeOMSInfo.html
+		createCustomer.html
+		createLocation.html
+		divStyle.css
+		index.html
+		manifset.json
+		navbar.html
+		stateListDropdown.html
+		style.css
+		styleNav.css
+			
+	
+	src
+		script.js
+		index.js
+		registerServiceWorker.js
+		
+		
+		
+index.js (pointer)
+signin (first page)
+frontpage

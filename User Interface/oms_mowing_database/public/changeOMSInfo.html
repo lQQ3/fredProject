@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Company Information</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Olivas Mowing Service</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" title="Pagina Principal">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="billCx.html" title="Facturacion">Invoicing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="payments.html" title="Pagos">Payments</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Crear">
+            Create
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="createCustomer.html" title="Crear Cliente">Create Customer</a>
+            <a class="dropdown-item" href="createLocation.html" title="Crear Ubicacion">Create Location</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html" title="Buscar">Search</a>
+        </li>
+        <li class="nav-item">
+          <!--<a class="nav-link disabled" href="#">Disabled</a>-->
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+      </form>
+    </div>
+  </nav>
+<div class="gradient">
+  <center><h1>Olivas Mowing Service Customer Database</h1></center>
+  <center><h1 title="Cambiar Informacion de la Compania">Change Company Information</h1></center>
+</div>
+  <br>
+<!-- Which information would you like to change?
+<select>
+  <option value="phNum" name="phNum" title="Numero de Telefono">Telephone Number</option>
+  <option value="email" name="emailAdrs" title="Direccion de Correo Electronico">Email Address</option>
+C  <option value="adrs" name="adrs" title="Direccion">Street Address</option>
+</select> -->
+<div>
+  Change Phone Number: <input type="text" name="chgCoPhnNum" title="Cambiar Numero de Telefono">
+</div>
+<div>
+  Change Email Address: <input type="text" name="chgCoEmail" title="Cambiar Direccion de Correo Electronico">
+</div>
+<div>
+  Change Address: <input type="text" value="Street Number" name="chgCoBldgNum"><input type="text" value="Street Name" name="chgCoStName" title="Cambiar Direccion">
+</div>
+<div>
+  Change City: <input type="text" name="chgCoCity" title="Cambiar Ciudad">
+</div>
+<!-- State as a dropdown -->
+<div>
+  <h6 title="Cambio Estado">Change State<select name="state"></h6>
+    <option value="alabama" name="alabama" title="AL">Alabama</option>
+    <option value="alaska" name="alaska" title="AK">Alaska</option>
+    <option value="arizona" name="arizona" title="AZ">Arizona</option>
+    <option value="arkansas" name="arkansas" title="AR">Arkansas</option>
+    <option value="california" name="california" title="CA">California</option>
+    <option value="colorado" name="colorado" title="CO">Colorado</option>
+    <option value="connecticut" name="connecticut" title="CT">Connecticut</option>
+    <option value="delaware" name="delaware" title="DE">Delaware</option>
+    <option value="florida" name="florida" title="FL">Florida</option>
+    <option value="georgia" name="georgia" title="GA">Georgia</option>
+    <option value="hawaii" name="hawaii" title="HI">Hawaii</option>
+    <option value="idaho" name="idaho" title="ID">Idaho</option>
+    <option value="illinois" name="illinois" title="IL">Illinois</option>
+    <option value="indiana" name="indiana" title="IN">Indiana</option>
+    <option value="iowa" name="iowa" title="IA">Iowa</option>
+    <option value="kansas" name="kansas" title="KS">Kansas</option>
+    <option value="kentucky" name="kentucky" title="KY">Kentucky</option>
+    <option value="louisiana" name="louisiana" title="LA">Louisiana</option>
+    <option value="maine" name="maine" title="ME">Maine</option>
+    <option value="maryland" name="maryland" title="MD">Maryland</option>
+    <option value="massachusetts" name="massachusetts" title="MA">Massachusetts</option>
+    <option value="michigan" name="michigan" title="MI">Michigan</option>
+    <option value="minnesota" name="minnesota" title="MN">Minnesota</option>
+    <option value="mississippi" name="mississippi" title="MS">Mississippi</option>
+    <option value="missouri" name="missouri" title="MO">Missouri</option>
+    <option value="montana" name="montana" title="MT">Montana</option>
+    <option value="nebraska" name="nebraska" title="NE">Nebraska</option>
+    <option value="nevada" name="nevada" title="NV">Nevada</option>
+    <option value="newHampshire" name="newHampshire" title="NH">New Hampshire</option>
+    <option value="newJersey" name="newJersey" title="NJ">New Jersey</option>
+    <option value="newMexico" name="newMexico" title="NM">New Mexico</option>
+    <option value="newYork" name="newYork" title="NY">New York</option>
+    <option value="nCarolina" name="nCarolina" title="NC">North Carolina</option>
+    <option value="nDakota" name="nDakota" title="ND">North Dakota</option>
+    <option value="ohio" name="ohio" title="OH">Ohio</option>
+    <option value="oklahoma" name="oklahoma" title="OK">Oklahoma</option>
+    <option value="oregon" name="oregon" title="OR">Oregon</option>
+    <option value="pennsylvania" name="pennsylvania" title="PA">Pennsylvania</option>
+    <option value="rhodeIsland" name="rhodeIsland" title="RI">Rhode Island</option>
+    <option value="sCarolina" name="sCarolina" title="SC">South Carolina</option>
+    <option value="sDakota" name="sDakota" title="SD">South Dakota</option>
+    <option value="tennesee" name="tennesee" title="TN">Tennesee</option>
+    <option value="texas" name="texas" title="TX">Texas</option>
+    <option value="utah" name="utah" title="UT">Utah</option>
+    <option value="vermont" name="vermont" title="VT">Vermont</option>
+    <option value="virginia" name="virginia" title="VA">Virginia</option>
+    <option value="washigton" name="washigton" title="WA">Washigton</option>
+    <option value="wVirginia" name="wVirginia" title="WV">West Virginia</option>
+    <option value="wisconsin" name="wisconsin" title="WI">Wisconsin</option>
+    <option value="wyoming" name="wyoming" title="WY">Wyoming</option>
+  </select>
+</div>
+<div>
+  Change Zip Code: <input type="text" name="chgCoZip" title="Cambiar codigo postal">
+</div>
+<br>
+<hr>
+</div>
+<div>
+  <center>
+    <input type="submit" class="btn btn-outline-dark" value="Submit (Not Working)" title="Enviar">
+    <input type="submit" class="btn btn-outline-dark" value="Reset" title="Reiniciar">
+    <input type="submit" class="btn btn-outline-dark" value="Cancel (Not Working)" title="Cancelar">
+  </center>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

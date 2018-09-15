@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bill Customer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- NavBar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Olivas Mowing Service</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" title="Pagina Principal">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="billCx.html" title="Facturacion">Invoicing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="payments.html" title="Pagos">Payments</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Crear">
+          Create
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="createCustomer.html" title="Crear Cliente">Create Customer</a>
+          <a class="dropdown-item" href="createLocation.html" title="Crear Ubicacion">Create Location</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="search.html" title="Buscar">Search</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link disabled" href="#">Disabled</a>-->
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+    </form>
+  </div>
+</nav>
+  <div class="gradient">
+  <center><h1>Olivas Mowing Service Customer Database</h1></center>
+  <center><h2 title="Factura Cliente">Invoice Customer</h2></center>
+</div>
+  <form method="GET">
+    <div>
+      <p><h6 title="Busqueda por">Search by:</h6></p>
+      <select name="searchBy">
+      <option value="cxName" name="cxName" title="Nombre">Name</option>
+      <option value="cxID" name="cxID" title="ID del Cliente">Customer ID</option>
+      <option value="location" name="location" title="Ubicacion">Location</option>
+      <option value="locID" name="locID" title="ID de Ubicacion">Location ID</option>
+      <option value="phNum" name="phNum" title="Numero de Telefono">Telephone Number</option>
+      <option value="emailAdrs" name="emailAdrs" title="Direccion de Correo Electronico">Email Address</option>
+      <option value="city" name="city" title="Ciudad">City</option>
+      <option value="state" name="state" title="Estado">State</option>
+      <option value="zipCode" name="zipCode" title="Codigo Postal">Zip Code</option>
+      </select>
+    </div>
+    <br>
+    <center><h4 title="Informacion al Cliente">Customer Information</h4></center>
+    Last Name: <input type="text" name="lastName" title="Apelido"><br>
+    First Name: <input type="text" name="firstName" title="Nombre de Pila"><br>
+    Primary Telephone Number: <input type="text" name="phoneNum1" title="Numero de Telefono Primario"><br>
+     Secondary Telephone Number: <input type ="text" name="phoneNum2" title="Numero de Telefono Secundario"><br>
+    Email Address: <input type="email" name="emailAdrs" title="Direccion de Correo Electronico"><br>
+    <center><h4 title="Datos de Facturacion">Billing Information</h4></center>
+    Street Number, Street Name <input type="text" name="bldgNum" title="Numero de Calle"><input type="text" name="stName" title="Nombre de la Calle"><br>
+    City <input type="text" name="city" title="Ciudad"><br>
+    <!-- State as a dropdown -->
+    <div>
+      <h6 title="Estado">State<select name="state"></h6>
+        <option value="alabama" name="alabama" title="AL">Alabama</option>
+        <option value="alaska" name="alaska" title="AK">Alaska</option>
+        <option value="arizona" name="arizona" title="AZ">Arizona</option>
+        <option value="arkansas" name="arkansas" title="AR">Arkansas</option>
+        <option value="california" name="california" title="CA">California</option>
+        <option value="colorado" name="colorado" title="CO">Colorado</option>
+        <option value="connecticut" name="connecticut" title="CT">Connecticut</option>
+        <option value="delaware" name="delaware" title="DE">Delaware</option>
+        <option value="florida" name="florida" title="FL">Florida</option>
+        <option value="georgia" name="georgia" title="GA">Georgia</option>
+        <option value="hawaii" name="hawaii" title="HI">Hawaii</option>
+        <option value="idaho" name="idaho" title="ID">Idaho</option>
+        <option value="illinois" name="illinois" title="IL">Illinois</option>
+        <option value="indiana" name="indiana" title="IN">Indiana</option>
+        <option value="iowa" name="iowa" title="IA">Iowa</option>
+        <option value="kansas" name="kansas" title="KS">Kansas</option>
+        <option value="kentucky" name="kentucky" title="KY">Kentucky</option>
+        <option value="louisiana" name="louisiana" title="LA">Louisiana</option>
+        <option value="maine" name="maine" title="ME">Maine</option>
+        <option value="maryland" name="maryland" title="MD">Maryland</option>
+        <option value="massachusetts" name="massachusetts" title="MA">Massachusetts</option>
+        <option value="michigan" name="michigan" title="MI">Michigan</option>
+        <option value="minnesota" name="minnesota" title="MN">Minnesota</option>
+        <option value="mississippi" name="mississippi" title="MS">Mississippi</option>
+        <option value="missouri" name="missouri" title="MO">Missouri</option>
+        <option value="montana" name="montana" title="MT">Montana</option>
+        <option value="nebraska" name="nebraska" title="NE">Nebraska</option>
+        <option value="nevada" name="nevada" title="NV">Nevada</option>
+        <option value="newHampshire" name="newHampshire" title="NH">New Hampshire</option>
+        <option value="newJersey" name="newJersey" title="NJ">New Jersey</option>
+        <option value="newMexico" name="newMexico" title="NM">New Mexico</option>
+        <option value="newYork" name="newYork" title="NY">New York</option>
+        <option value="nCarolina" name="nCarolina" title="NC">North Carolina</option>
+        <option value="nDakota" name="nDakota" title="ND">North Dakota</option>
+        <option value="ohio" name="ohio" title="OH">Ohio</option>
+        <option value="oklahoma" name="oklahoma" title="OK">Oklahoma</option>
+        <option value="oregon" name="oregon" title="OR">Oregon</option>
+        <option value="pennsylvania" name="pennsylvania" title="PA">Pennsylvania</option>
+        <option value="rhodeIsland" name="rhodeIsland" title="RI">Rhode Island</option>
+        <option value="sCarolina" name="sCarolina" title="SC">South Carolina</option>
+        <option value="sDakota" name="sDakota" title="SD">South Dakota</option>
+        <option value="tennesee" name="tennesee" title="TN">Tennesee</option>
+        <option value="texas" name="texas" title="TX">Texas</option>
+        <option value="utah" name="utah" title="UT">Utah</option>
+        <option value="vermont" name="vermont" title="VT">Vermont</option>
+        <option value="virginia" name="virginia" title="VA">Virginia</option>
+        <option value="washigton" name="washigton" title="WA">Washigton</option>
+        <option value="wVirginia" name="wVirginia" title="WV">West Virginia</option>
+        <option value="wisconsin" name="wisconsin" title="WI">Wisconsin</option>
+        <option value="wyoming" name="wyoming" title="WY">Wyoming</option>
+      </select>
+    </div>
+    Zip Code <input type="text" name="zipCode" title="Codigo Postal"><br>
+    <br><hr>
+    </div><br>
+
+    <center><h4 title="Ubicacion de Servicio">Service Location</h4></center>
+    Street Number, Street Name <input type="text" name="bldgNum" title="Numero de Calle"><input type="text" name="stName" title="Nombre de la Calle"><br>
+    City <input type="text" name="city" title="Ciudad"><br>
+    <!-- State as a dropdown -->
+    <div>
+      <h6 title="Estado">State<select name="state"></h6>
+        <option value="alabama" name="alabama" title="AL">Alabama</option>
+        <option value="alaska" name="alaska" title="AK">Alaska</option>
+        <option value="arizona" name="arizona" title="AZ">Arizona</option>
+        <option value="arkansas" name="arkansas" title="AR">Arkansas</option>
+        <option value="california" name="california" title="CA">California</option>
+        <option value="colorado" name="colorado" title="CO">Colorado</option>
+        <option value="connecticut" name="connecticut" title="CT">Connecticut</option>
+        <option value="delaware" name="delaware" title="DE">Delaware</option>
+        <option value="florida" name="florida" title="FL">Florida</option>
+        <option value="georgia" name="georgia" title="GA">Georgia</option>
+        <option value="hawaii" name="hawaii" title="HI">Hawaii</option>
+        <option value="idaho" name="idaho" title="ID">Idaho</option>
+        <option value="illinois" name="illinois" title="IL">Illinois</option>
+        <option value="indiana" name="indiana" title="IN">Indiana</option>
+        <option value="iowa" name="iowa" title="IA">Iowa</option>
+        <option value="kansas" name="kansas" title="KS">Kansas</option>
+        <option value="kentucky" name="kentucky" title="KY">Kentucky</option>
+        <option value="louisiana" name="louisiana" title="LA">Louisiana</option>
+        <option value="maine" name="maine" title="ME">Maine</option>
+        <option value="maryland" name="maryland" title="MD">Maryland</option>
+        <option value="massachusetts" name="massachusetts" title="MA">Massachusetts</option>
+        <option value="michigan" name="michigan" title="MI">Michigan</option>
+        <option value="minnesota" name="minnesota" title="MN">Minnesota</option>
+        <option value="mississippi" name="mississippi" title="MS">Mississippi</option>
+        <option value="missouri" name="missouri" title="MO">Missouri</option>
+        <option value="montana" name="montana" title="MT">Montana</option>
+        <option value="nebraska" name="nebraska" title="NE">Nebraska</option>
+        <option value="nevada" name="nevada" title="NV">Nevada</option>
+        <option value="newHampshire" name="newHampshire" title="NH">New Hampshire</option>
+        <option value="newJersey" name="newJersey" title="NJ">New Jersey</option>
+        <option value="newMexico" name="newMexico" title="NM">New Mexico</option>
+        <option value="newYork" name="newYork" title="NY">New York</option>
+        <option value="nCarolina" name="nCarolina" title="NC">North Carolina</option>
+        <option value="nDakota" name="nDakota" title="ND">North Dakota</option>
+        <option value="ohio" name="ohio" title="OH">Ohio</option>
+        <option value="oklahoma" name="oklahoma" title="OK">Oklahoma</option>
+        <option value="oregon" name="oregon" title="OR">Oregon</option>
+        <option value="pennsylvania" name="pennsylvania" title="PA">Pennsylvania</option>
+        <option value="rhodeIsland" name="rhodeIsland" title="RI">Rhode Island</option>
+        <option value="sCarolina" name="sCarolina" title="SC">South Carolina</option>
+        <option value="sDakota" name="sDakota" title="SD">South Dakota</option>
+        <option value="tennesee" name="tennesee" title="TN">Tennesee</option>
+        <option value="texas" name="texas" title="TX">Texas</option>
+        <option value="utah" name="utah" title="UT">Utah</option>
+        <option value="vermont" name="vermont" title="VT">Vermont</option>
+        <option value="virginia" name="virginia" title="VA">Virginia</option>
+        <option value="washigton" name="washigton" title="WA">Washigton</option>
+        <option value="wVirginia" name="wVirginia" title="WV">West Virginia</option>
+        <option value="wisconsin" name="wisconsin" title="WI">Wisconsin</option>
+        <option value="wyoming" name="wyoming" title="WY">Wyoming</option>
+      </select>
+    </div>
+    Zip Code <input type="text" name="zipCode" title="Codigo Postal"><br>
+    <hr>
+    <center>
+      <p>
+        populate all of cx's locations<br>
+      </p>
+      <button type="button" class="btn btn-outline-dark" href="OMS_Invoice.html" title="Crear Factura" onclick="printPreview()">Create Invoice (Link Working)</button>
+      <input type="reset" class="btn btn-outline-dark" value="Reset" title="Reiniciar">
+    </center>
+</form>
+
+<script>function printPreview() {location.href="OMS_Invoice.html"}</script>
+<script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+  </html>

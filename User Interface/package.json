@@ -1,0 +1,21 @@
+{
+  "name": "oms_billing_db",
+  "version": "1.0.0",
+  "description": "Olivas Mowing Service billing database",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lQQ3/fredProject/tree/master/User%20Interface"
+  },
+  "author": "Shawn Rice",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "create-react-app": "^1.5.2",
+    "live-server": "^1.2.0",
+    "lodash": "^4.17.10"
+  }
+}
